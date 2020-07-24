@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/destination/destination",
+    "pages/customized/customized",
+    "pages/find/find",
+    "pages/my/my"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#8f8f8f",
+    "selectedColor": "#d62f81",
+    "borderStyle": "white",
+    "backgroundColor": "#f9f9f9",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/Navimg/index.png",
+        "selectedIconPath": "static/Navimg/indexh.png"
+      },
+      {
+        "pagePath": "pages/destination/destination",
+        "text": "目的地",
+        "iconPath": "static/Navimg/dw.png",
+        "selectedIconPath": "static/Navimg/dwh.png"
+      },
+      {
+        "pagePath": "pages/customized/customized",
+        "text": "定制游",
+        "iconPath": "static/Navimg/pig.png",
+        "selectedIconPath": "static/Navimg/pigh.png"
+      },
+      {
+        "pagePath": "pages/find/find",
+        "text": "发现",
+        "iconPath": "./static/Navimg/sou.png",
+        "selectedIconPath": "static/Navimg/souh.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "static/Navimg/my.png",
+        "selectedIconPath": "static/Navimg/myh.png"
+      }
+    ],
+    "midButton": {
+      "width": "63px",
+      "height": "63px",
+      "iconPath": "static/tabBar/plus.png",
+      "iconWidth": "55px"
+    }
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}
