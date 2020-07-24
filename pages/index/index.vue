@@ -51,7 +51,7 @@ export default {
 				list[i].zIndex = parseInt(list.length / 2) + 1 - Math.abs(i - parseInt(list.length / 2));
 				list[i].mLeft = i - parseInt(list.length / 2);
 			}
-			this.swiperList = list;
+			this.swiperImg = list;
 		},
 		getNav(){// get导航组件数据
 			uni.request({
@@ -76,7 +76,7 @@ export default {
 	},
 	mounted() {
 		// 初始化轮播组件
-		this.TowerSwiper('swiperList');
+		this.TowerSwiper('swiperImg');
 		this.getNav();
 		this.getImg();
 	}
