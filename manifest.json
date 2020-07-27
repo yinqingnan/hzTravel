@@ -1,5 +1,5 @@
 {
-    "name" : "banma",
+    "name" : "憨猪",
     "appid" : "__UNI__17B80CC",
     "description" : "",
     "versionName" : "1.0.0",
@@ -86,6 +86,7 @@
                 "enable" : true
             }
         },
+        "publicPath" : "./",
         "devServer" : {
             "proxy" : {
                 "/api" : {
@@ -95,21 +96,9 @@
                         "^/api" : "/api"
                     }
                 }
-            }
-        }
+            },
+            "port" : 8081
+        },
+        "domain" : "www.yqn.com"
     }
 }
-// "proxy": {
-//         "/api": {
-//             "target": "https://m.bmtrip.com/",
-//             "changeOrigin": true,
-//             "secure": false,
-// 			"pathRewrite":{"^/api":""}
-//         }
-//     }
-// "optimization" : {
-//     "treeShaking" : {
-//         "enable" : true
-//     }
-// }
-

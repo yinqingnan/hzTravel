@@ -17,4 +17,11 @@
 	@import "static/ColorUI/main.css";
 	@import "static/ColorUI/icon.css";
 	/*每个页面公共css */
+	li{
+		list-style: none;
+	}
+	*{
+		padding: 0;
+		margin: 0;
+	}
 </style>
